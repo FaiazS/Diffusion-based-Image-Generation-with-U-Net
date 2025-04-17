@@ -17,24 +17,24 @@ PROJECT STRUCTURE:
 
 1. Image Preprocessing:
    
--Load and preprocess input images.
+    -Load and preprocess input images.
 
--Convert images into tensors for training and testing.
+    -Convert images into tensors for training and testing.
 
 2. Diffusion Process:
    
--Forward Diffusion: Gradually adds noise to the image.
+    -Forward Diffusion: Gradually adds noise to the image.
 
--Reverse Diffusion: Removes noise at each step to recover the original image.
+    -Reverse Diffusion: Removes noise at each step to recover the original image.
 
 3. U-Net Architecture:
    
--Encoder-Decoder architecture designed for image restoration tasks, with skip connections for better information flow.
+    -Encoder-Decoder architecture designed for image restoration tasks, with skip connections for better information flow.
 
 5. Training the Model:
    
--The model is trained using MSE (Mean Squared Error) loss to predict noise at each timestep and refine the image.
+   -The model is trained using MSE (Mean Squared Error) loss to predict noise at each timestep and refine the image.
 
 7. Image Restoration:
    
--Use the reverse diffusion process to restore images starting from noisy inputs.
+   -Use the reverse diffusion process to restore images starting from noisy inputs.
