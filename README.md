@@ -1,6 +1,8 @@
 # Diffusion-based-Image-Generation-with-U-Net Architecture
 
 Overview:
+
+
 This project demonstrates a diffusion-based image restoration technique using a U-Net architecture to remove noise from images. The model leverages the forward and reverse diffusion process to progressively add and remove noise, generating high-quality images from noisy inputs. The core idea is based on the denoising process in diffusion models, which can be trained to predict and reverse noise added to the images.
 
 Key Features:
